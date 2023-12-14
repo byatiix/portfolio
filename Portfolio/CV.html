@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="PP">
+            <a href="index.html">
+                    <img src="image/PP.jpg" alt="photo_de_profil">
+                    <h1>Bauwens Quentin</h1>
+            </a> 
+        </div>
+    <div class="nav-links">
+        <ul>
+            <li><a href="#">Projets</a></li>
+            <li><a href="CV.html">Curriculum Vitae</a></li>
+        </ul>
+    </div>
+        <img src="image/nav-bar.png" alt="nav-bar" class="menu-hamburger">
+    </nav>
+
+<div class="CV">
+    <h1>Curriculum Vitae</h1>
+    <h2>Compétences</h2>
+    <div class="competences">
+        <p>Efficace</p>
+        <p>Autonome</p>
+        <p>Sociable</p>
+        <p> Permis B BE A C CE G</p>
+        <p>CACES 3-5</p>
+    </div>
+
+    <h2>Expériences</h2>
+
+    <h3>Transport Vanneste</h3>
+    <p>Chauffeur CE (février 2022 à octobre 2023) Moen</p>
+    <h3>Mercury + Lutosa</h3>
+    <p>Cariste (janvier 2022 à février 2022) Waregem</p>
+    <h3>Père au foyer</h3>
+    <p>(février 2021 à décembre 2021)</p>
+    <h3>Coudron</h3>
+    <p>chauffeur CE (novembre 2020 à février 2021) Mouscron</p>
+    <h3>Van Marcke</h3>
+    <p>chauffeur C/CE (juillet 2019 à novembre 2020) Rekkem</p>
+    <h3>TVH</h3>
+    <p>ouvrier de production et d'emballage + cariste (décembre 2017 à juillet 2019) Waregem</p>
+    <h3>Gourmand</h3>
+    <p>ouvrier de production + cariste (novembre 2017) Mouscron</p>
+    <h3>Belrey Fibres</h3>
+    <p>ouvrier polyvalent + cariste (juin 2017 à novembre 2017) Mouscron</p>
+
+    <h2>Formation</h2>
+
+    <h3>IFAPME</h3>
+    <p>Développeur frontend</p>
+    <p>Octobre 2023 à maintenant</p>
+    <h3>Frères Maristes Mouscron</h3>
+    <p>Comptabilité</p>
+    <p>2016 à 2017</p>
+    <p>non obtention du diplôme; arrêt des études en fin de 5e secondaire</p>
+    <h3>Saint Luc Tournai</h3>
+    <p>Photographie</p>
+    <p>2014 à 2016</p>
+</div>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
